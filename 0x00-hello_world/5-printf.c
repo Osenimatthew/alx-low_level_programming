@@ -1,10 +1,9 @@
-#!/bin/bash
-#include<studio.h>
+#include<stdio.h>
 /**
-*  main - Entery point
-*
-* Return: Alway 0 (success)
-*/
+ *  main - Entery point
+ *
+ * Return: Alway 0 (success)
+ */
 int main(void)
 {
         printf("with proper grammar, but the outcome is a piece of art");
