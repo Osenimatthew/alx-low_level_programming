@@ -1,4 +1,4 @@
-:wq#include<studio.h>
+#include<studio.h>
 /**
 * main - Entery point
 *
