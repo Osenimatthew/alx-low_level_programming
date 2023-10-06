@@ -20,11 +20,11 @@ int main(void)
 	printf("%d is ", n);
 
 	if (n > 0)
-		printf("positive\n");
+		printf("%d is positive\n", n);
 	else if (n == 0)
-		printf("zero\n");
+		printf("%d is zero\n", n);
 	else
-		printf("negative\n");
+		printf("%d is negative\n", n);
 
 	return (0);
-}	
+}
