@@ -14,7 +14,6 @@ int main(void)
 	/* seed the random number generator with the current time */
 	srand(time(0));
 
-	/* Generate random number between INT_MIN and INT_MAX */
 	n = rand() - (RAND_MAX / 2);
 
 	printf("%d is ", n);
