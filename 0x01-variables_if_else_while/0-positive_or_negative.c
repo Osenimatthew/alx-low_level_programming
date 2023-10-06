@@ -11,9 +11,9 @@ int main(void)
 {
 	int n;
 
-	/* seed the random number generator with the current time */
+	/* Seed the random number generator with the current time */
 	srand(time(0));
-
+	
 	n = rand() - (RAND_MAX / 2);
 
 	printf("%d is ", n);
