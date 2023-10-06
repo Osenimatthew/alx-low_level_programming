@@ -13,7 +13,7 @@ int main(void)
 
 	/* Seed the random number generator with the current time */
 	srand(time(0));
-	
+
 	n = rand() - (RAND_MAX / 2);
 
 	printf("%d is ", n);
